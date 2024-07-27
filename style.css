@@ -26,7 +26,7 @@ align-items: center;
 justify-content: space-between;
 padding: 1rem;
 margin: 0 10rem 0 10rem;
-height: 6.8rem;
+height: 4rem;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 
@@ -126,16 +126,109 @@ i{
 }
 
 .apoie{
-    height: 50vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "SF New Republic";
+    font-size: 24px;
+   
+}
+.text_apoie{
+    width: 550px;
+    margin-bottom: 70px;
+}
+.button_apoie{
+    background-color: var(--cor-rosa-medio);
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: var(--cor-white-claro);
+    cursor: pointer;
+    
     
 }
+.button_apoie_2{
+    background-color: var(--cor-blue-medio);
+    border: none;
+    width:15rem ;
+    height: 4rem;
+    color: var(--cor-white-claro);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.img_apoie{
+    width: 80%;
+}
+
 .gatos_para_adocao{
-    height: 50vh;
-    background-color: var(--cor-rosa-medio);
+    height: 500px;
+    background-color: #ffc3c2;
+    clip-path: polygon(0 0, 0% 20%, 0 47%, 0 98%, 50% 85%, 100% 98%, 100% 61%, 100% 20%, 100% 0, 51% 0);
+   
+}
+.container_adocao{
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,176,173,1) 0%, rgba(255,123,119,1) 100%);
+    clip-path: polygon(0 0, 0% 20%, 0 47%, 0 100%, 50% 85%, 100% 100%, 100% 61%, 100% 20%, 100% 0, 51% 0);
+}
+
+.h2_adocao{
+    text-align: center;
+    font-family: "SF New Republic";
+    font-weight: 300;
+    color: var(--cor-white-claro);
+    margin-top: 20px;
+    font-size: 32px;
+
+}
+.select_adocao{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    margin-top: 30px;
+    
+}
+select{
+    border: 1px solid var(--cor-white-claro);
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--cor-white-claro);
+}
+.button_select{
+    background-color: var(--cor-blue-medio);
+    border: none;
+    color: var(--cor-white-claro);
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.img_adocao{
+    position: absolute;
+    float: left;
+    left: 0;
+    width: 200px;
+    
+
+    
+    
+    
 }
 .conheca{
     height: 50vh;
-    background-color: var(--cor-white-claro); 
+    
 }
 .perguntas{
     height: 50vh;
