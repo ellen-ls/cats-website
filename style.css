@@ -168,13 +168,13 @@ i{
 }
 
 .gatos_para_adocao{
-    height: 500px;
+    height: 900px;
     background-color: #ffc3c2;
     clip-path: polygon(0 0, 0% 20%, 0 47%, 0 98%, 50% 85%, 100% 98%, 100% 61%, 100% 20%, 100% 0, 51% 0);
    
 }
 .container_adocao{
-    height: 490px;
+    height: 890px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,12 +220,59 @@ select{
     float: left;
     left: 0;
     width: 200px;
-    
-
-    
-    
+   
+}
+.button_adocao{
+    background-color: #FF8885;
+    border: 1px solid var(--cor-white-claro);
+    color: var(--cor-white-claro);
+    text-align: center;
+    width: 15rem;
+    height: 3rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fotos_adocao{
+    display: flex;
+    margin-top: 40px;
     
 }
+.gato{
+    width: 19.75rem;
+}
+.p_gatos{
+    color: var(--cor-white-claro);
+    margin-left: 120px;
+    
+}
+.span_gatos{
+    color: var(--cor-white-claro);
+    margin-left: 120px;
+    
+}
+
+.h2_gatos{
+    color: var(--cor-white-claro);
+    font-family: "Roboto", sans-serif;
+    margin-left: 130px;    
+}
+
+.genero{
+    width: 4rem;
+    height: 5rem;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+    background-color: var(--cor-blue-medio);
+    border-radius: 20px;
+    box-shadow: 5px 1px 40px #1168AD;
+    position: relative;
+    top:-120px;
+    left: 20px;
+}
+
 .conheca{
     height: 50vh;
     
