@@ -274,12 +274,78 @@ select{
 }
 
 .conheca{
-    height: 50vh;
+    position: relative;
+        
+}
+.img_conheca_ong{
+    width: 90%;
     
 }
+.div_conheca{
+    display: flex;
+    flex-direction: column;
+    
+}
+.h2_conheca{
+    font-family: "SF New Republic";
+    font-size: 32px; 
+    font-weight: 300;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.p_conheca{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 50%;
+    margin-left: 350px;
+   
+}
+.button_conheca{
+    background-color: var(--cor-blue-medio);
+    color: var(--cor-white-claro);
+    border: none;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 3rem;
+    right: 18rem;
+    cursor: pointer;
+    font-size: 16px;
+}
 .perguntas{
-    height: 50vh;
+    width: 100%;
     background-color: var(--cor-rosa-claro);
+    position: relative;
+   
+        
+}
+.div_perguntas{
+    text-align: center;
+   
+
+}
+.h2_perguntas{
+    font-family: "SF New Republic";
+    font-size: 24px; 
+           
+}
+.far{
+    color: var(--cor-rosa-medio);
+    margin-top: 50px;
+}
+.pata_esquerda{
+    width: 200px;
+    position: absolute;
+    bottom: 12rem;
+    
+}
+.pata_direita{
+    width: 200px;
+    position: relative;
+    left: 71.4rem;
 }
 .depoimentos{
     height: 50vh;
