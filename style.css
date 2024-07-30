@@ -317,36 +317,119 @@ select{
 }
 .perguntas{
     width: 100%;
+    height: 700px;
     background-color: var(--cor-rosa-claro);
     position: relative;
-   
-        
+     
 }
 .div_perguntas{
     text-align: center;
-   
-
+    
 }
 .h2_perguntas{
     font-family: "SF New Republic";
     font-size: 24px; 
-           
+      
 }
 .far{
     color: var(--cor-rosa-medio);
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 .pata_esquerda{
-    width: 200px;
+    width: 300px;
     position: absolute;
-    bottom: 12rem;
+    top: -6rem;
+    right: 65.7rem;
     
 }
 .pata_direita{
-    width: 200px;
+    width: 300px;
     position: relative;
-    left: 71.4rem;
+    left: 32.6rem;
+    top:-20rem;
+    
 }
+details{
+  
+    width: 500px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    
+    
+}       
+    summary{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 600;
+      margin-bottom: 0;
+      transition: margin-bottom .4s;
+      font-family: "Roboto", sans-serif;
+            
+      
+    }
+
+     
+    summary::-webkit-details-marker,
+    summary::marker{
+      display: none;
+    }
+    
+ 
+    summary::after{
+      font-family: "Font Awesome 5 Free";
+      content: '\f078';
+      font-size: 1rem;
+      margin-right: 1rem;
+      cursor: pointer;
+      color: #FF8885;
+      background-color: var(--cor-rosa-claro);
+      padding: .70rem;
+      border-radius: 5px;
+    
+    }
+    
+    *:not(summary) {
+      animation-name: fade;
+      animation-duration: .4s;
+    }
+  
+   
+  details[open]{
+    background-color: var(--cor-rosa-medio);
+    
+   
+    p{
+        color: var(--cor-white-claro);
+    }
+
+    summary{
+      margin-bottom: 1.5rem;
+      color: var(--cor-white-claro);
+      
+      &::after{
+        background-color: transparent;
+        border: 1px solid var(--cor-white);
+        color: var(--cor-white);
+        content: "\f077";
+      }
+    }
+  }
+  
+  @keyframes fade {
+    0%{
+      opacity: 0;
+    }
+    
+    100%{
+      opacity: 1;
+    }
+  }
+  
 .depoimentos{
     height: 50vh;
     background-color: var(--cor-white-claro);  
