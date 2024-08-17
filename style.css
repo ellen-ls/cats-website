@@ -749,6 +749,21 @@ border-radius: 5px;
     font-size: 30px;
    
 }
+footer{
+    position: relative;
+}
+.img-footer{
+    position: relative;
+    top: -2.5rem;
+    margin-left: 60px;
+    width: 300px;
+
+}
+.p-footer{
+    color: var(--cor-rosa-medio);
+    font-family: "SF New Republic";
+    text-align: center;
+}
 
 
 @media (max-width: 800px) {
