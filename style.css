@@ -726,6 +726,9 @@ border-radius: 5px;
     font-size: 12px;
     margin-top: 20px;
 }
+.div-input-newsletter{
+    position: relative;
+}
 
 .input-newsletter{
     width: 40rem;
@@ -741,6 +744,9 @@ border-radius: 5px;
 }
 .fa-long-arrow-alt-right{
     position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 30px;
    
 }
 
