@@ -436,7 +436,7 @@ details{
     display: flex;
     align-items: center;
     padding-top: 20px;
-    background-color: var(--cor-white-claro);  
+    
 }
 .img_depoimentos{
     width: 200px;
@@ -465,7 +465,6 @@ details{
 }
 
 .slider-wrapper{
-   
     overflow: hidden;
     max-width: 1200px;
     margin: 0 70px 55px;
@@ -529,8 +528,34 @@ details{
    
 }
 .parceiros{
-    height: 50vh;
-    background-color: var(--cor-white-claro);  
+    height: 70vh;
+}
+
+.h2-parceiros{
+    text-align: center;
+    font-family: "SF New Republic";
+    font-size: 30px;
+    position: absolute;
+    margin: 100px 550px;
+  
+}
+.img-parceiros{
+  height: 22.7rem;
+  position: relative;
+  margin-top: -10rem;
+
+}
+.div-img-parceiros{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    
+}
+.img-parceiros-marcas{
+    width: 12rem;
+    
+
 }
 .fale_conosco{
     height: 50vh;
